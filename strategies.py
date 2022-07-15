@@ -33,7 +33,6 @@ class FillerEngine:
 
         return method
 
-
 class MinimalEngine(EngineWrapper):
     """
     Subclass this to prevent a few random errors
