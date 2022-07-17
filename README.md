@@ -1,15 +1,18 @@
-# lichess-bot
-**MAINTAINER [OIVAS7572](https://github.com/OIVAS7572)**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Koulen&size=30&color=C01382&lines=M07001;Powerful+Lichess+Bot;Playing+Bullet%2C+Blitz%2C+Rapid%2C+Classical;Follow+And+Give+A+Help)](https://git.io/typing-svg)
+--
+**MAINTAINER [OIVAS7572](https://github.com/OIVAS7572) AND [MOVINDUTB](https://github.com/Movindutb)**
 
 [![Python Build](https://github.com/OIVAS7572/lichess-bot/actions/workflows/python-build.yml/badge.svg)](https://github.com/OIVAS7572/lichess-bot/actions/workflows/python-build.yml)
 [![Python Test](https://github.com/OIVAS7572/lichess-bot/actions/workflows/python-test.yml/badge.svg)](https://github.com/OIVAS7572/lichess-bot/actions/workflows/python-test.yml)
 [![Docker](https://github.com/OIVAS7572/lichess-bot/actions/workflows/Docker.yml/badge.svg)](https://github.com/OIVAS7572/lichess-bot/actions/workflows/Docker.yml)
 
-# lichess-bot
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Koulen&size=30&color=C01382&lines=lichess+bot)](https://git.io/typing-svg)
+--
 - A bridge between [Lichess API](https://lichess.org/api#tag/Bot) and bots.
 - This bot is made with Python and it is running using Docker container and is concentrated on heroku.
 
-## How to Install on Heroku
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Koulen&size=30&color=C01382&lines=How+to+Install+on+Heroku)](https://git.io/typing-svg)
+--
 - Import or [Fork](https://github.com/OIVAS7572/lichess-bot/fork) this repository to your Github.
 - Open the `Settings` tab on heroku and insert your [API access token with `bot:play` scopes enabled](https://lichess.org/account/oauth/token/create?scopes[]=bot:play&description=Lichess+Bot+Token) in the `Config vars` field in the format `LICHESS_BOT_TOKEN:API-ACCESS-TOKEN`, where you replace `API-ACCESS-TOKEN` with your API Access token.
 - Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and [create a new app](https://dashboard.heroku.com/new-app) in Heroku. <br/>
@@ -20,7 +23,8 @@
 
 **You're now connected to lichess and awaiting challenges! Your bot is up and ready!**
 
-## Bot Information
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Koulen&size=30&color=C01382&lines=Bot+Information)](https://git.io/typing-svg)
+--
 Engine:
 - [Stockfish 15](https://stockfishchess.org/blog/2022/stockfish-15/) with the default NNUE.
 
@@ -32,8 +36,8 @@ Opening Books:
 
 **If you would like to run bot locally on PC, read the [lichess-bot manual](https://github.com/ShailChoksi/lichess-bot#how-to-install).**
 
-## How to change the engine used?
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Koulen&size=30&color=C01382&lines=How+to+change+the+engine+used%3F)](https://git.io/typing-svg)
+--
 **Changing the engine to an engine of your preference is simple. Just follow the following steps:**
 
 - Firstly, you have to remove the engine used. To do this you need delete the file named `stockfish15` in the [`engines/` folder](/engines).
@@ -41,8 +45,10 @@ Opening Books:
 Note: Make sure you download a linux binary that is supported by heroku (by default Stockfish is used, and the default engine name is `stockfish15`).
 - Then change the name of engine in [6th line of config.yml](/config.yml#L6) and [14th line of Dockerfile](/Dockerfile#L14) to your binary file's name.
 
-## Acknowledgements
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Koulen&size=30&color=C01382&lines=Acknowledgements)](https://git.io/typing-svg)
+--
 Credits to [ShailChoksi's lichess-bot](https://github.com/ShailChoksi/lichess-bot).
 
-## License
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Koulen&size=30&color=C01382&lines=licesnse)](https://git.io/typing-svg)
+--
 This code is primarily taken from [lichess-bot by ShailChoksi](https://github.com/ShailChoksi/lichess-bot) and is hence run under the AGPLv3 License (or later at your option). Check out the [LICENSE file](/LICENSE) for full text.
